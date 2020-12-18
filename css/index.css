@@ -1,0 +1,16 @@
+.numInput {
+    margin-top: 3px;
+    width: 5em;
+}
+
+body {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.buttonf {
+    margin-top: 5px;
+    width: 150px;
+    height: 2em;
+    font-size: large;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="author" content="YeEeck" />
+    <meta charset="utf-8">
+    <meta name="generator" content="Visual Studio Code" />
+    <link href="css/index.css" type="text/css" rel="stylesheet" />
+    <script src="js/index.js" type="text/javascript"></script>
+    <title>原神伤害计算器</title>
+</head>
+
+<body>
+    攻击力：<input type="number" class="numInput" id="atk" /><br />
+    暴击率：<input type="number" class="numInput" id="cr" />%<br />
+    暴击伤害：<input type="number" class="numInput" id="cratk" />%<br />
+    技能伤害百分比：<input type="number" class="numInput" id="skill" />%<br />
+    圣遗物元素/物理伤害加成：<input type="number" class="numInput" id="sadd" />%<br />
+    圣遗物套装伤害加成：<input type="number" class="numInput" id="sall" />%<br />
+    装备伤害加成：<input type="number" class="numInput" id="equip" />%<br />
+    怪物抗性：<input type="number" class="numInput" id="defend" />%<br />
+    <input type="button" value="计算" class="buttonf" onclick="cal()" />
+    <p id="result">
+        伤害期望(无暴击)：<input type="text" readonly="readonly" style="width: 5em;" id="result1" /><br /><br />
+        伤害期望：<input type="text" readonly="readonly" style="width: 5em;" id="result2" /><br /><br />
+        伤害期望(暴击)：<input type="text" readonly="readonly" style="width: 5em;" id="result3" /><br /><br />
+    </p>
+</body>
+
+</html>
